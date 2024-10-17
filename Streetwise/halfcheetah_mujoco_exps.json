@@ -1,0 +1,46 @@
+[
+    {
+        "env": "halfcheetah-medium-v2",
+        "iql_model_path": "/home/azureuser/cloudfiles/code/Users/t-shandilyas/IQL_RESULTS/halfcheetah-medium-v2_trial_1/halfcheetah-medium-v2/10-06-24_14.57.03_unrg/final.pt",
+        "lstm_ae_model_path": "/home/azureuser/cloudfiles/code/Users/t-shandilyas/LSTM-AE/trained_models_new/halfcheetah-medium-v2_trial_final/lstm_ae_model_final.pt",
+        "std_dev": [0.074729, 0.30234897, 0.30207208, 0.34416977, 0.17619142, 0.5072046, 0.25669977, 0.32948026, 1.257414, 0.76005316, 1.9800906, 6.5653615, 7.466367, 4.472222, 10.566963, 5.6719317, 7.498258],
+        "mean": [-0.06845774, 0.01641455, -0.18354906, -0.27624607, -0.34061527, -0.09339716, -0.21321271, -0.08774239, 5.1730075, -0.04275195, -0.03610836, 0.14053793, 0.06049833, 0.09550975, 0.067391, 0.00562739, 0.01338279],
+        "beta": 0.1,
+        "gamma": 0.1
+    },
+    {
+        "env": "halfcheetah-medium-expert-v2",
+        "iql_model_path": "/home/azureuser/cloudfiles/code/Users/t-shandilyas/IQL_RESULTS/halfcheetah-medium-expert-v2_trial_1/halfcheetah-medium-expert-v2/10-14-24_18.51.17_wzew/final.pt",
+        "lstm_ae_model_path": "/home/azureuser/cloudfiles/code/Users/t-shandilyas/LSTM-AE/trained_models_new/halfcheetah-medium-expert-v2_trial_final/lstm_ae_model_final.pt",
+        "std_dev": [0.06103434, 0.36054003, 0.455443, 0.38476786, 0.22183537, 0.56675136, 0.31966728, 0.28529134, 3.443821, 0.67281294, 1.8616967, 9.575807, 10.029894, 5.903449, 12.128184, 6.481178, 6.378619],
+        "mean": [-0.05667463, 0.02436997, -0.06167056, -0.22351515, -0.26751512, -0.07545716, -0.05809683, -0.02767508, 8.110626, -0.06136331, -0.17986928, 0.25175223, 0.24186333, 0.25193694, 0.5879553, -0.24090636, -0.03018427],
+        "beta": 0.1,
+        "gamma": 0.1
+    },
+    {
+        "env": "halfcheetah-expert-v2",
+        "iql_model_path": "/home/azureuser/cloudfiles/code/Users/t-shandilyas/IQL_RESULTS/halfcheetah-expert-v2_trial_1/halfcheetah-expert-v2/10-14-24_17.49.04_rljr/final.pt",
+        "lstm_ae_model_path": "/home/azureuser/cloudfiles/code/Users/t-shandilyas/LSTM-AE/trained_models_new/halfcheetah-expert-v2_trial_final/lstm_ae_model_final.pt",
+        "std_dev": [0.04002019, 0.41078478, 0.54217744, 0.41522714, 0.23796524, 0.62036765, 0.3010081, 0.21737063, 2.2105927, 0.572585, 1.7255024, 11.844217, 12.063239, 7.0495925, 13.4998665, 7.195646, 5.0264316],
+        "mean": [-0.04489148, 0.03232588, 0.06034835, -0.17081226, -0.19480659, -0.05751596, 0.09701628, 0.03239211, 11.047426, -0.07997331, -0.32363534, 0.36297753, 0.42322603, 0.40836546, 1.1085187, -0.4874403, -0.0737481],
+        "beta": 0.1,
+        "gamma": 0.1
+    },
+    {
+        "env": "halfcheetah-random-v2",
+        "iql_model_path": "/home/azureuser/cloudfiles/code/Users/t-shandilyas/IQL_RESULTS/halfcheetah-random-v2_trial_1/halfcheetah-random-v2/10-14-24_16.59.59_oncn/final.pt",
+        "lstm_ae_model_path": "/home/azureuser/cloudfiles/code/Users/t-shandilyas/LSTM-AE/trained_models_new/halfcheetah-random-v2_trial_final/lstm_ae_model_final.pt",
+        "std_dev": [0.18696316, 1.2162771, 0.25750658, 0.27545494, 0.26605013, 0.33155474, 0.30773512, 0.2853508, 0.7234953, 0.73869854, 1.5436634, 5.667903, 6.84329, 7.042982, 6.4059086, 6.734072, 6.0764403],
+        "mean": [-0.15660684, 0.66651475, 0.00278248, 0.01825191, -0.00304543, 0.03655306, -0.02006914, -0.0204513, -0.09160804, -0.01397561, 0.01134511, 0.02187325, -0.06049998, 0.03157479, 0.00595536, 0.03921323, 0.00713053],
+        "beta": 0.1,
+        "gamma": 0.1
+    },
+    {
+        "env": "halfcheetah-medium-replay-v2",
+        "iql_model_path": "/home/azureuser/cloudfiles/code/Users/t-shandilyas/IQL_RESULTS/halfcheetah-medium-replay-v2_trial_1/halfcheetah-medium-replay-v2/10-14-24_21.32.47_ndkb/final.pt",
+        "lstm_ae_model_path": "/home/azureuser/cloudfiles/code/Users/t-shandilyas/LSTM-AE/trained_models_new/halfcheetah-medium-replay-v2_trial_final/lstm_ae_model_final.pt",
+        "std_dev": [0.17018916, 1.284424, 0.33442673, 0.3672749, 0.26092297, 0.47840968, 0.31814104, 0.33552536, 2.0931606, 0.80374235, 1.9044324, 6.573209, 7.5728626, 5.0697484, 9.105553, 6.0856533, 7.253003],
+        "mean": [-0.12880704, 0.37381196, -0.14995988, -0.23479079, -0.28412786, -0.13096535, -0.20157982, -0.06517727, 3.4768248, -0.02785066, -0.01503525, 0.07697279, 0.01266712, 0.0273253, 0.02316425, 0.01043872, -0.01583941],
+        "beta": 0.1,
+        "gamma": 0.1
+    }]

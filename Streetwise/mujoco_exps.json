@@ -1,0 +1,137 @@
+[
+    {
+        "env": "halfcheetah-medium-v2",
+        "iql_model_path": "/home/azureuser/cloudfiles/code/Users/t-shandilyas/IQL_RESULTS/halfcheetah-medium-v2_trial_1/halfcheetah-medium-v2/10-06-24_14.57.03_unrg/final.pt",
+        "lstm_ae_model_path": "/home/azureuser/cloudfiles/code/Users/t-shandilyas/LSTM-AE/trained_models_new/halfcheetah-medium-v2_trial_final/lstm_ae_model_final.pt",
+        "std_dev": [0.074729, 0.30234897, 0.30207208, 0.34416977, 0.17619142, 0.5072046, 0.25669977, 0.32948026, 1.257414, 0.76005316, 1.9800906, 6.5653615, 7.466367, 4.472222, 10.566963, 5.6719317, 7.498258],
+        "mean": [-0.06845774, 0.01641455, -0.18354906, -0.27624607, -0.34061527, -0.09339716, -0.21321271, -0.08774239, 5.1730075, -0.04275195, -0.03610836, 0.14053793, 0.06049833, 0.09550975, 0.067391, 0.00562739, 0.01338279],
+        "beta": 0.1,
+        "gamma": 0.1
+    },
+    {
+        "env": "halfcheetah-medium-expert-v2",
+        "iql_model_path": "/home/azureuser/cloudfiles/code/Users/t-shandilyas/IQL_RESULTS/halfcheetah-medium-expert-v2_trial_1/halfcheetah-medium-expert-v2/10-14-24_18.51.17_wzew/final.pt",
+        "lstm_ae_model_path": "/home/azureuser/cloudfiles/code/Users/t-shandilyas/LSTM-AE/trained_models_new/halfcheetah-medium-expert-v2_trial_final/lstm_ae_model_final.pt",
+        "std_dev": [0.06103434, 0.36054003, 0.455443, 0.38476786, 0.22183537, 0.56675136, 0.31966728, 0.28529134, 3.443821, 0.67281294, 1.8616967, 9.575807, 10.029894, 5.903449, 12.128184, 6.481178, 6.378619],
+        "mean": [-0.05667463, 0.02436997, -0.06167056, -0.22351515, -0.26751512, -0.07545716, -0.05809683, -0.02767508, 8.110626, -0.06136331, -0.17986928, 0.25175223, 0.24186333, 0.25193694, 0.5879553, -0.24090636, -0.03018427],
+        "beta": 0.1,
+        "gamma": 0.1
+    },
+    {
+        "env": "halfcheetah-expert-v2",
+        "iql_model_path": "/home/azureuser/cloudfiles/code/Users/t-shandilyas/IQL_RESULTS/halfcheetah-expert-v2_trial_1/halfcheetah-expert-v2/10-14-24_17.49.04_rljr/final.pt",
+        "lstm_ae_model_path": "/home/azureuser/cloudfiles/code/Users/t-shandilyas/LSTM-AE/trained_models_new/halfcheetah-expert-v2_trial_final/lstm_ae_model_final.pt",
+        "std_dev": [0.04002019, 0.41078478, 0.54217744, 0.41522714, 0.23796524, 0.62036765, 0.3010081, 0.21737063, 2.2105927, 0.572585, 1.7255024, 11.844217, 12.063239, 7.0495925, 13.4998665, 7.195646, 5.0264316],
+        "mean": [-0.04489148, 0.03232588, 0.06034835, -0.17081226, -0.19480659, -0.05751596, 0.09701628, 0.03239211, 11.047426, -0.07997331, -0.32363534, 0.36297753, 0.42322603, 0.40836546, 1.1085187, -0.4874403, -0.0737481],
+        "beta": 0.1,
+        "gamma": 0.1
+    },
+    {
+        "env": "halfcheetah-random-v2",
+        "iql_model_path": "/home/azureuser/cloudfiles/code/Users/t-shandilyas/IQL_RESULTS/halfcheetah-random-v2_trial_1/halfcheetah-random-v2/10-14-24_16.59.59_oncn/final.pt",
+        "lstm_ae_model_path": "/home/azureuser/cloudfiles/code/Users/t-shandilyas/LSTM-AE/trained_models_new/halfcheetah-random-v2_trial_final/lstm_ae_model_final.pt",
+        "std_dev": [0.18696316, 1.2162771, 0.25750658, 0.27545494, 0.26605013, 0.33155474, 0.30773512, 0.2853508, 0.7234953, 0.73869854, 1.5436634, 5.667903, 6.84329, 7.042982, 6.4059086, 6.734072, 6.0764403],
+        "mean": [-0.15660684, 0.66651475, 0.00278248, 0.01825191, -0.00304543, 0.03655306, -0.02006914, -0.0204513, -0.09160804, -0.01397561, 0.01134511, 0.02187325, -0.06049998, 0.03157479, 0.00595536, 0.03921323, 0.00713053],
+        "beta": 0.1,
+        "gamma": 0.1
+    },
+    {
+        "env": "halfcheetah-medium-replay-v2",
+        "iql_model_path": "/home/azureuser/cloudfiles/code/Users/t-shandilyas/IQL_RESULTS/halfcheetah-medium-replay-v2_trial_1/halfcheetah-medium-replay-v2/10-14-24_21.32.47_ndkb/final.pt",
+        "lstm_ae_model_path": "/home/azureuser/cloudfiles/code/Users/t-shandilyas/LSTM-AE/trained_models_new/halfcheetah-medium-replay-v2_trial_final/lstm_ae_model_final.pt",
+        "std_dev": [0.17018916, 1.284424, 0.33442673, 0.3672749, 0.26092297, 0.47840968, 0.31814104, 0.33552536, 2.0931606, 0.80374235, 1.9044324, 6.573209, 7.5728626, 5.0697484, 9.105553, 6.0856533, 7.253003],
+        "mean": [-0.12880704, 0.37381196, -0.14995988, -0.23479079, -0.28412786, -0.13096535, -0.20157982, -0.06517727, 3.4768248, -0.02785066, -0.01503525, 0.07697279, 0.01266712, 0.0273253, 0.02316425, 0.01043872, -0.01583941],
+        "beta": 0.1,
+        "gamma": 0.1
+    },
+    {
+        "env": "hopper-medium-v2",
+        "iql_model_path": "/home/azureuser/cloudfiles/code/Users/t-shandilyas/IQL_RESULTS/hopper-medium-v2_trial_1/hopper-medium-v2/10-06-24_14.58.54_ebdq/final.pt",
+        "lstm_ae_model_path": "/home/azureuser/cloudfiles/code/Users/t-shandilyas/LSTM-AE/trained_models_new/hopper-medium-v2_trial_final/lstm_ae_model_final.pt",
+        "std_dev": [0.1779035, 0.05444656, 0.2129812, 0.14529784, 0.61242235, 0.8517836, 1.451492, 0.67517656, 1.536231, 1.616021, 5.6071105],
+        "mean": [1.311269, -0.08469255, -0.5382544, -0.07201077, 0.04934321, 2.1065824, -0.1501445, 0.00878558, -0.28484878, -0.1853939, -0.28468204],
+        "beta": 0.1,
+        "gamma": 0.1
+    },
+    {
+        "env": "hopper-medium-expert-v2",
+        "iql_model_path": "/home/azureuser/cloudfiles/code/Users/t-shandilyas/IQL_RESULTS/hopper-medium-expert-v2_trial_1/hopper-medium-expert-v2/10-14-24_18.51.33_tldc/final.pt",
+        "lstm_ae_model_path": "/home/azureuser/cloudfiles/code/Users/t-shandilyas/LSTM-AE/trained_models_new/hopper-medium-expert-v2_trial_final/lstm_ae_model_final.pt",
+        "std_dev": [0.1701187, 0.05158843, 0.18140872, 0.16430089, 0.60233206, 0.7737068, 1.4986507, 0.7483478, 1.795348, 2.0529907, 5.7250433],
+        "mean": [1.3293798, -0.09836855, -0.54443085, -0.10201836, 0.02277537, 2.3577394, -0.06346238, -0.00374847, -0.17660724, -0.1186296, -0.12095594],
+        "beta": 0.1,
+        "gamma": 0.1
+    },
+    {
+        "env": "hopper-expert-v2",
+        "iql_model_path": "/home/azureuser/cloudfiles/code/Users/t-shandilyas/IQL_RESULTS/hopper-expert-v2_trial_1/hopper-expert-v2/10-14-24_17.49.14_xayd/final.pt",
+        "lstm_ae_model_path": "/home/azureuser/cloudfiles/code/Users/t-shandilyas/LSTM-AE/trained_models_new/hopper-expert-v2_trial_final/lstm_ae_model_final.pt",
+        "std_dev": [0.15980546, 0.04462045, 0.1430877, 0.17627779, 0.5912315, 0.5900614, 1.5404774, 0.8152652, 2.0172997, 2.4106023, 5.843967],
+        "mean":  [1.3489856, -0.11208171, -0.5506444, -0.13187851, -0.00377268, 2.6070392, 0.02324404, -0.0162793, -0.06841915, -0.0518654, 0.04268835],
+        "beta": 0.1,
+        "gamma": 0.1
+    },
+    {
+        "env": "hopper-random-v2",
+        "iql_model_path": "/home/azureuser/cloudfiles/code/Users/t-shandilyas/IQL_RESULTS/hopper-random-v2_trial_1/hopper-random-v2/10-14-24_17.00.25_zzzl/final.pt",
+        "lstm_ae_model_path": "/home/azureuser/cloudfiles/code/Users/t-shandilyas/LSTM-AE/trained_models_new/hopper-random-v2_trial_final/lstm_ae_model_final.pt",
+        "std_dev": [0.02483105, 0.06347696, 0.06574888, 0.10098374, 0.151763, 0.41154855, 0.2989805, 1.3966092, 1.4490736, 1.4826247, 1.7376854],
+        "mean": [1.2273494, -0.06166748, -0.04339196, -0.06191825, 0.04466474, -0.15579042, -0.24393886, -1.1188291, -0.77804416, -0.8612579, 0.4571117],
+        "beta": 0.1,
+        "gamma": 0.1
+    },
+    {
+        "env": "hopper-medium-replay-v2",
+        "iql_model_path": "/home/azureuser/cloudfiles/code/Users/t-shandilyas/IQL_RESULTS/hopper-medium-replay-v2_trial_1/hopper-medium-replay-v2/10-14-24_21.33.02_abce/final.pt",
+        "lstm_ae_model_path": "/home/azureuser/cloudfiles/code/Users/t-shandilyas/LSTM-AE/trained_models_new/hopper-medium-replay-v2_trial_final/lstm_ae_model_final.pt",
+        "std_dev": [0.17565021, 0.06369186, 0.34383133, 0.1956679, 0.5547975, 1.051029, 1.1583067, 0.79631186, 1.480235, 1.6540322, 5.1086],
+        "mean": [1.2305138, -0.04371411, -0.44542956, -0.09370098, 0.09094488, 1.3694725, -0.19992675, -0.02286135, -0.5287045, -0.14465883, -0.19652697],
+        "beta": 0.1,
+        "gamma": 0.1
+    },
+    {
+        "env": "walker2d-medium-v2",
+        "iql_model_path": "/home/azureuser/cloudfiles/code/Users/t-shandilyas/IQL_RESULTS/walker2d-medium-v2_trial_1/walker2d-medium-v2/10-06-24_14.59.28_frdd/final.pt",
+        "lstm_ae_model_path": "/home/azureuser/cloudfiles/code/Users/t-shandilyas/LSTM-AE/trained_models_new/walker2d-medium-v2_trial_final/lstm_ae_model_final.pt",
+        "std_dev": [0.12311231, 0.32418668, 0.11455962, 0.262305, 0.5640259, 0.22718629, 0.38373104, 0.73736507, 1.2388073, 0.79801923, 1.566435, 1.8093017, 3.0256112, 4.0625114, 1.4587333, 3.7445877, 5.5851474],
+        "mean": [1.2189661, 0.14163269, -0.03704931, -0.13814253, 0.5138207, -0.04719116, -0.47288144, 0.0422545, 2.3948724, -0.03143476, 0.04464605, -0.02391925, -0.1013532, 0.09093896, -0.00419304, -0.12122557, -0.54968005],
+        "beta": 0.1,
+        "gamma": 0.1
+    },
+    {
+        "env": "walker2d-medium-expert-v2",
+        "iql_model_path": "/home/azureuser/cloudfiles/code/Users/t-shandilyas/IQL_RESULTS/walker2d-medium-expert-v2_trial_1/walker2d-medium-expert-v2/10-14-24_18.51.48_xalq/final.pt",
+        "lstm_ae_model_path": "/home/azureuser/cloudfiles/code/Users/t-shandilyas/LSTM-AE/trained_models_new/walker2d-medium-expert-v2_trial_final/lstm_ae_model_final.pt",
+        "std_dev": [0.09931802, 0.25979388, 0.15063831, 0.24248165, 0.67589915, 0.16504125, 0.38140205, 0.6962167, 1.3501068, 0.7641857, 1.5346272, 2.178715, 3.2766874, 4.76635, 1.1715741, 4.039866, 5.8917785],
+        "mean": [1.2294352e+00, 1.6871053e-01, -7.0903048e-02, -1.6198455e-01, 3.7097815e-01, -1.2195792e-02, -4.2459762e-01, 1.8990807e-01, 3.1627305e+00, -1.8079581e-02, 3.4971725e-02, -1.3912162e-02, -5.9384875e-02, -1.9562472e-01, -1.9175350e-03, -6.2441301e-02, -2.7356911e-01],
+        "beta": 0.1,
+        "gamma": 0.1
+    },
+    {
+        "env": "walker2d-expert-v2",
+        "iql_model_path": "/home/azureuser/cloudfiles/code/Users/t-shandilyas/IQL_RESULTS/walker2d-expert-v2_trial_1/walker2d-expert-v2/10-14-24_17.49.25_msyj/final.pt",
+        "lstm_ae_model_path": "/home/azureuser/cloudfiles/code/Users/t-shandilyas/LSTM-AE/trained_models_new/walker2d-expert-v2_trial_final/lstm_ae_model_final.pt",
+        "std_dev": [0.06665318, 0.16983624, 0.17309488, 0.21843614, 0.74598455, 0.02410704, 0.3729849, 0.6226418, 0.9708777, 0.7293714, 1.5042022, 2.4958673, 3.5115414, 5.3657146, 0.7950404, 4.317432, 6.1785474],
+        "mean": [1.2384772e+00, 1.9579102e-01, -1.0474801e-01, -1.8579705e-01, 2.3006383e-01, 2.2799876e-02, -3.7384290e-01, 3.3775932e-01, 3.9249957e+00, -4.7271331e-03, 2.5279097e-02, -3.9175800e-03, -1.7429776e-02, -4.8215786e-01, 3.5755389e-04, -3.6746163e-03, 2.6039619e-03],
+        "beta": 0.1,
+        "gamma": 0.1
+    },
+    {
+        "env": "walker2d-random-v2",
+        "iql_model_path": "/home/azureuser/cloudfiles/code/Users/t-shandilyas/IQL_RESULTS/walker2d-random-v2_trial_1/walker2d-random-v2/10-14-24_17.00.33_ervh/final.pt",
+        "lstm_ae_model_path": "/home/azureuser/cloudfiles/code/Users/t-shandilyas/LSTM-AE/trained_models_new/walker2d-random-v2_trial_final/lstm_ae_model_final.pt",
+        "std_dev": [0.05937484, 0.30283, 0.27900192, 0.4234983, 0.40446097, 0.27961302, 0.41916987, 0.4077236, 0.5836438, 0.98547864, 4.702648, 5.97983, 5.308318, 7.41063, 5.982478, 5.302596, 7.396658],
+        "mean": [1.2004834, -0.3509708, -0.21856225, -0.3024976, 0.2576143, -0.22022839, -0.29657567, 0.25247017, -0.88348246, -0.94912636, -4.8009067, -3.0680444, -3.110015, 1.2372682, -3.0756202, -3.0704784, 1.1947131],
+        "beta": 0.1,
+        "gamma": 0.1
+    },
+    {
+        "env": "walker2d-medium-replay-v2",
+        "iql_model_path": "/home/azureuser/cloudfiles/code/Users/t-shandilyas/IQL_RESULTS/walker2d-medium-replay-v2_trial_1/walker2d-medium-replay-v2/10-14-24_21.33.21_ncgr/final.pt",
+        "lstm_ae_model_path": "/home/azureuser/cloudfiles/code/Users/t-shandilyas/LSTM-AE/trained_models_new/walker2d-medium-replay-v2_trial_final/lstm_ae_model_final.pt",
+        "std_dev": [0.11929736, 0.3562564, 0.258521, 0.4207532, 0.5202281, 0.15684983, 0.36770877, 0.71613777, 1.3763757, 0.86322117, 2.6364634, 3.0134108, 3.720683, 4.867283, 2.6681616, 3.845186, 5.4768376],
+        "mean": [1.2093647, 0.13264023, -0.14371201, -0.20465161, 0.55776125, -0.03231537, -0.2784661, 0.19130707, 1.4701707, -0.12504704, 0.05649531, -0.09991033, -0.34034026, 0.03546293, -0.08934259, -0.2992438, -0.5984178],
+        "beta": 0.1,
+        "gamma": 0.1
+    }
+]
